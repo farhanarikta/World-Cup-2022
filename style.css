@@ -32,6 +32,8 @@ a{
         animation: fadeIn 1.5s;
         position: relative; 
         z-index:  1;
+        
+        
     
     } 
     .btn::after{
@@ -499,6 +501,10 @@ section{
     .header .container .row .col-1{
         width: 100%;
         padding: 5rem 0;
+    }
+    .header .container .row .col-1 .btn.btn-watch{
+        display: block;
+        width: 50%;
     }
     .blog .container .row .col-1 nav{
         flex-direction: column;
